@@ -17,22 +17,30 @@ body{
 .card{
     background-color: #14253D;
     border-radius: 15px;
-    width: 360px;
-    height: 615px;
+    width: 330px;
+    height: 560px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+
 }
 
-.img-container{
-    width: 320px;
+.img-container-equilibrium{
+    width: 290px;
     margin: 0 auto;
+    /* background-color: #00FFF7; */
 }
 
-.card img{
+.card .img-equilibrium{
     cursor: pointer;
-    width: 320px;
-    height: 330px;
+    width: 290px;
+    height: 290px;
     border-radius: 10px;
     margin: 20px 0 10px 0;
 }
+
+/* .img-equilibrium:active{
+    opacity: .5;
+} */
 
 .card .title{
     width: 180px;
@@ -42,15 +50,16 @@ body{
     margin-left: 22px;
 }
 
-.card .title:active{
+.card .title:active, .Jules:active{
     color: #00FFF7;
 }
 
 .card .subtitle{
-    color: #ccc;
-    opacity: .6;
+    color: #ddd;
+    opacity: .7;
     font-weight: 100;
-    font-size: 16px;
+    font-size: 15px;
+    letter-spacing: .5px;
     margin-left: 22px;
 }
 
@@ -70,15 +79,15 @@ body{
 .card .clock_icon{
     position: relative;
     top: 3px;
-    margin-left: 131px;
+    margin-left: 100px;
     margin-right: 3px;
 }
 
-.card .clock_text{
+.card .clock_text, .avatar_text{
     display: inline-block;
     font-size: 15px;
-    color: #ccc;
-    opacity: .6;
+    color: #ddd;
+    opacity: .7;
     font-weight: 100;
 }
 
@@ -86,4 +95,24 @@ body{
     border: none;
     outline: 1px solid #2F415B;
     margin: 10px 22px;
+}
+
+.img-avatar{
+    border: 1px solid #fff;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    margin: 8px 0px 0px 20px;
+}
+
+.Jules{
+    color: #fff;
+    font-size: 15px;
+}
+
+.avatar_text, .Jules{
+    position: relative;
+    cursor: pointer;
+    top: -10px;
+    left: 12px;
 }
