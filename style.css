@@ -18,7 +18,7 @@ body{
     background-color: #14253D;
     border-radius: 15px;
     width: 330px;
-    height: 560px;
+    height: 565px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
 
@@ -27,20 +27,47 @@ body{
 .img-container-equilibrium{
     width: 290px;
     margin: 0 auto;
-    /* background-color: #00FFF7; */
+}
+
+.card .img-active{
+    position: absolute;
+    width: 290px;
+    height: 295px;
+    background-color: #00FFF7;
+    border-radius: 12px;
+    top: 80px;
+    z-index: 1;
 }
 
 .card .img-equilibrium{
+    position: relative;
+    z-index: 2;
     cursor: pointer;
     width: 290px;
-    height: 290px;
+    height: 295px;
     border-radius: 10px;
     margin: 20px 0 10px 0;
 }
 
-/* .img-equilibrium:active{
+.card .img-equilibrium:active{
     opacity: .5;
-} */
+}
+
+.view-icon-container{
+    display: flex;
+    width: 290px;
+    height: 50px;
+    position: absolute;
+    top: 200px;
+    justify-content: center;
+}
+
+.view-icon{
+    position: absolute;
+    z-index: 3;
+    display: block;
+    cursor: pointer;
+}
 
 .card .title{
     width: 180px;
