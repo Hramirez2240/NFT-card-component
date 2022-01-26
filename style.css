@@ -49,10 +49,6 @@ body{
     margin: 20px 0 10px 0;
 }
 
-.card .img-equilibrium:active{
-    opacity: .5;
-}
-
 .view-icon-container{
     display: flex;
     width: 290px;
@@ -67,6 +63,15 @@ body{
     z-index: 3;
     display: block;
     cursor: pointer;
+    display: none;
+}
+
+.img-equilibrium:active{
+    opacity: .5;
+}
+
+.img-container-equilibrium:active .view-icon{
+    display: block;
 }
 
 .card .title{
@@ -142,4 +147,20 @@ body{
     cursor: pointer;
     top: -10px;
     left: 12px;
+}
+
+@media only screen and (max-width: 415px){
+    .card .img-active{
+        opacity: 0;
+    }
+
+    .img-container-equilibrium:active .img-active{
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 415px) and (min-width: 400px) {
+    body{
+        background-color: red;
+    }
 }
