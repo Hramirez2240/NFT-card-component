@@ -159,8 +159,50 @@ body{
     }
 }
 
-@media only screen and (max-width: 415px) and (min-width: 400px) {
+/* @media only screen and (max-width: 415px) and (min-width: 400px) {
     body{
         background-color: red;
+    }
+} */
+
+@media only screen and (max-width: 280px){
+    .card{
+        width: 280px;
+        height: 540px;
+    }
+
+    .img-container-equilibrium{
+        width: 240px;
+    }
+
+    .card .img-equilibrium{
+        width: 240px;
+        height: 245px;
+    }
+
+    .card .img-active{
+        width: 240px;
+        height: 245px;
+    }
+
+    .view-icon-container{
+        width: 240px;
+        top: 180px;
+    }
+
+    .card .clock_icon{
+        margin-left: 50px;
+    }
+
+    .card .title, .card .subtitle, .card .ethereum_icon{
+        margin-left: 15px;
+    }
+
+    .card hr{
+        margin: 10px 15px;
+    }
+
+    .img-avatar{
+        margin: 8px 0px 0px 13px;
     }
 }
