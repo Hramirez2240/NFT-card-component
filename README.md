@@ -18,6 +18,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ## Overview
 
+Is a NFT card about the coin ethereum.
+
 ### The challenge
 
 Users should be able to:
@@ -25,9 +27,11 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
+### Screenshots
 
-![Screenshot project](img/screenshot-project.png)
+![Screenshot project](design/screenshot-project.png)
+![Screenshot project active](design/screenshot-project-active.png)
+![Screenshot project mobile](design/screenshot-project-mobile.png)
 
 ### Links
 
@@ -41,43 +45,53 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned more about responsive design and combine colors in css to 
+create a great combination
 
-To see how you can add code snippets, see below:
+This is some of the HTML code that i'm proud of:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div class="flex-container">
+        <div class="card">
+            <div class="img-container-equilibrium">
+                <img src="img/image-equilibrium.jpg" alt="" class="img-equilibrium">
+                <div class="img-active"></div>
+                <div class="view-icon-container">
+                    <svg class="view-icon" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h48v48H0z"/><path d="M24 9C14 9 5.46 15.22 2 24c3.46 8.78 12 15 22 15 10.01 0 18.54-6.22 22-15-3.46-8.78-11.99-15-22-15Zm0 25c-5.52 0-10-4.48-10-10s4.48-10 10-10 10 4.48 10 10-4.48 10-10 10Zm0-16c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6Z" fill="#FFF" fill-rule="nonzero"/></g></svg>
+                </div>
+            </div>
+</div>
 ```
+Some of the css code that i'm proud of (flexbox is very helpful
+in this situations):
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.flex-container{
+    display: flex;
+    width: 100%;
+    height: 615px;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+.card{
+    background-color: #14253D;
+    border-radius: 15px;
+    width: 330px;
+    height: 565px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+
 
 ### Useful resources
 
