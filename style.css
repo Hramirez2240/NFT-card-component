@@ -153,6 +153,24 @@ body{
     left: 12px;
 }
 
+.attribution{
+    position: relative;
+    width: 430px;
+    top: 40px;
+    left: -25px;
+    color: #ccc;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.attribution a{
+    color: #274369;
+}
+
+.attribution a:visited{
+    color: #274369;
+}
+
 @media only screen and (max-width: 1280px){
     .card .img-active{
         opacity: 0;
@@ -203,12 +221,24 @@ body{
     .img-avatar{
         margin: 8px 0px 0px 19px;
     }
+
+    .attribution{
+        text-align: center;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 376px) and (min-width: 359px) {
+    .attribution{
+        text-align: center;
+        width: 360px;
+    }
 }
 
 @media only screen and (max-width: 280px){
     .card{
         width: 280px;
-        height: 540px;
+        height: 510px;
     }
 
     .img-container-equilibrium{
@@ -244,5 +274,16 @@ body{
 
     .img-avatar{
         margin: 8px 0px 0px 13px;
+    }
+
+    .attribution{
+        position: relative;
+        width: 275px;
+        top: 32px;
+        left: -2px;
+        color: #ccc;
+        font-weight: 100;
+        font-size: 15px;
+        text-align: center;
     }
 }
