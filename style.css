@@ -6,6 +6,7 @@ body{
     background-color: #0D192B;
 }
 
+
 .flex-container{
     display: flex;
     width: 100%;
@@ -20,8 +21,7 @@ body{
     width: 330px;
     height: 565px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
-
+    
 }
 
 .img-container-equilibrium{
@@ -95,6 +95,10 @@ body{
     margin-left: 22px;
 }
 
+.inline{
+    display: inline-block;
+}
+
 .card .ethereum_icon{
     position: relative;
     top: 3px;
@@ -149,7 +153,7 @@ body{
     left: 12px;
 }
 
-@media only screen and (max-width: 415px){
+@media only screen and (max-width: 1280px){
     .card .img-active{
         opacity: 0;
     }
@@ -159,11 +163,47 @@ body{
     }
 }
 
-/* @media only screen and (max-width: 415px) and (min-width: 400px) {
-    body{
-        background-color: red;
+@media only screen and (max-width: 415px) and (min-width: 400px) {
+    .card{
+        width: 350px;
+        height: 585px;
     }
-} */
+
+    .img-container-equilibrium{
+        width: 310px;
+    }
+
+    .card .img-equilibrium{
+        width: 310px;
+        height: 315px;
+    }
+
+    .card .img-active{
+        width: 310px;
+        height: 315px;
+    }
+
+    .view-icon-container{
+        width: 310px;
+        top: 210px;
+    }
+
+    .card .clock_icon{
+        margin-left: 121px;
+    }
+
+    .card .title, .card .subtitle, .card .ethereum_icon{
+        margin-left: 21px;
+    }
+
+    .card hr{
+        margin: 10px 21px;
+    }
+
+    .img-avatar{
+        margin: 8px 0px 0px 19px;
+    }
+}
 
 @media only screen and (max-width: 280px){
     .card{
