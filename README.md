@@ -8,13 +8,11 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -41,9 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Live Site URL: [Github Pages](https://hramirez2240.github.io/NFT-card-component/)
 
 ### Built with
 
@@ -94,19 +90,16 @@ in this situations):
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I want to focuse in flexbox and responsive design, those are good concepts in CSS, and i think it would be more useful in my projects if i learn it.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - This helps me to understand the basics conceps about flexbox, mozilla is a good web to looking for information about CSS.
+- [Active](https://www.w3schools.com/CSSref/sel_active.asp) - This helps me to understand about active state in a css class, very easy and understandable.
+- [Media only](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp) - This helps me to understand the concepts about media queries, fundamental when we talk about responsive-design.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Github - [Hramirez2240](https://github.com/Hramirez2240)
+- Frontend Mentor - [@Hramirez2240](https://www.frontendmentor.io/profile/Hramirez2240)
+- Instagram - [@hraamirez](https://www.instagram.com/hraamirez/)
